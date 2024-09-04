@@ -1,0 +1,95 @@
+
+*{
+  background-color: #2F1893;
+}
+
+.header {
+  width: 470px;
+  height: 26px;
+  background-color:none ;
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2px; /* slight padding to fit the links inside the header */
+  box-sizing: border-box;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff; /* You can adjust the color as needed */
+  padding: 0 10px; /* Adjust link padding for spacing */
+  font-size: 26px;
+}
+
+.home{
+  filter: drop-shadow();
+  font-style: italic;
+}
+ 
+
+.main {
+  width: 100%;
+  max-width: 600px; /* You can adjust the max-width as needed */
+  margin: 0 auto; /* Center horizontally */
+  position: relative;
+  top: 111px; /* Positioned below the header (85px + 26px header height) */
+  text-align: center;
+  padding: 20px; /* Optional: Add some padding for spacing */
+  box-sizing: border-box;
+}
+
+
+.Forget {
+  font-size: 72px;
+  color: #fff;
+  font-weight: bold;
+  margin: 10px 0; /* Optional: Adjust the margin for spacing */
+  width: 595;
+  height: 86;
+}
+
+.Startup{
+  width: 111;
+  height: 19;
+  font-weight: bold;
+  color: white;
+}
+
+.paragaph {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+  width: 736px;
+  height: 96px;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Vertically center the text within the height */
+  justify-content: center; /* Ensure the text is centered horizontally */
+  box-sizing: border-box;
+  margin-right: 150px;
+
+}
+
+.create-account-button {
+  width: 230px;
+  height: 60px;
+  background-color: #482BE7;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 40px; /* Space below the dots */
+}
+
+.create-account-button:hover {
+  background-color: #3A22B8;
+}
+
+
